@@ -1,0 +1,135 @@
+/* Color Palette
+Coolors Exported Palette - https://coolors.co/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+
+/* CSS HEX 
+--antique-brass: #cb997eff;
+--desert-sand: #ddbea9ff;
+--champagne-pink: #ffe8d6ff;
+--ash-gray: #b7b7a4ff;
+--artichoke: #a5a58dff;
+--ebony: #6b705cff;
+color: rgb(207, 125, 81);
+*/
+
+
+/* @media(max-width: 320px)
+     @media(min-width: 901px)
+     @media(min-width: 600px) and (max-width: 900px) */
+
+
+/*CSS rules to specify families
+
+font-family: 'Lato', sans-serif;
+font-family: 'Oooh Baby', cursive;
+font-family: 'Splash', cursive;*/
+
+@import "./blog.css";
+@import "./profile.css";
+@import "./nav.css";
+@import "./footer.css";
+body {
+    color: #6b705cff;
+    background-color: #b7b7a4ff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+}
+
+a {
+    color: rgb(96, 40, 10);
+    font-weight: strong;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+    align-content: center;
+}
+
+header {
+    background: #6b705cff;
+    color: #ffe8d6ff;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Splash', cursive;
+    font-weight: 400;
+    margin: 0;
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h2,
+h3 {
+    font-family: 'Oooh Baby', cursive;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+.main {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.blog_card {
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffe8d6ff;
+    border-radius: 5px;
+    box-shadow: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.blog_card p,
+article,
+figure {
+    width: 100%;
+}
+
+.readmore {
+    font-size: 16px;
+}
+
+.aside {
+    padding: 15px;
+    background-color: #a5a58dff;
+    float: right;
+    width: 200px;
+    height: 100%;
+}
+
+.aside-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ddbea9ff;
+}
