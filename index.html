@@ -1,1 +1,216 @@
-"Hello World" 
+<!-- # Exercise: Creating an HTML Template
+
+Create a basic HTML template with the declaration, html tag, head, meta, title, body and one paragraph element in the body.
+
+.-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isra Secret Garden!</title>
+    <meta name="description" content="Blog" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icons/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oooh+Baby&family=Splash&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="content-wrap">
+            <h1>Isra Garden</h1>
+            <h2>Welome to my blog!</h2>
+            <p>”One of the best programming skills you can have is knowing when to walk away for a while” - <span>Oscar Godson</span></p>
+            <p>”Dont judge each day by the harvest you reap, but by the seeds that you plant.” - <span>Robert Louis</span></p>
+            <div class="readmore">
+                <a href="#">read more ...</a>
+            </div>
+        </div>
+        <nav id="nav_bar">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Code</a>
+            <a href="blog.html">Garden</a>
+            <a href="profile.html">About Author</a>
+        </nav>
+    </header>
+
+    <aside id="aside_div">
+        <div class="aside">
+            <h3>Older Blogs</h3>
+            <section id="aside-item">
+                <div class="aside-card">
+                    <h3>
+                        Subject 1
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="readmore">
+                        <a href="#">read more ...</a>
+                    </div>
+                </div>
+            </section>
+            <section id="aside-item2">
+                <div class="aside-card">
+                    <h3>
+                        Subject 2
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="readmore">
+                        <a href="#">read more ...</a>
+                    </div>
+                </div>
+            </section>
+            <section id="aside-item3">
+                <div class="aside-card">
+                    <h3>
+                        Subject 3
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="readmore">
+                        <a href="#">read more ...</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </aside>
+
+    <div id="main">
+        <section id="blog_card1" class="blog_card">
+            <figure id="blog_card_fig1">
+                <img src="images/lab1.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article1">
+                <h2>Blog1 code</h2>
+                <h4><a href="#">Code</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+        <section id="blog_card2" class="blog_card">
+            <figure id="blog_card_fig2">
+                <img src="images/lab2.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article2">
+                <h2>Blog2 code</h2>
+                <h4><a href="#">Code</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+        <section id="blog_card3" class="blog_card">
+            <figure id="blog_card_fig3">
+                <img src="images/garden1.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article1">
+                <h2>Garden 3</h2>
+                <h4><a href="#">Garden</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+        <section id="blog_card4" class="blog_card">
+            <figure id="blog_card_fig4">
+                <img src="images/garden2.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article4">
+                <h2>Garden 2</h2>
+                <h4><a href="#">Garden</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+        <section id="blog_card5" class="blog_card">
+            <figure id="blog_card_fig5">
+                <img src="images/garden3.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article5">
+                <h2>Garden 3</h2>
+                <h4><a href="#">Garden</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+        <section id="blog_card6" class="blog_card">
+            <figure id="blog_card_fig6">
+                <img src="images/lab1.jpg" />
+                <figcaption>some words about the image</figcaption>
+            </figure>
+            <article id="blog_card_article6">
+                <h2>Code 3</h2>
+                <h4><a href="#">Code</a></h4>
+                <p>Non blandit massa enim nec dui nunc mattis enim ut. Accumsan lacus vel facilisis volutpat. Nunc sed id semper risus in. Nec nam aliquam sem et tortor consequat id porta. Sed id semper risus in hendrerit gravida rutrum. Habitasse platea
+                    dictumst vestibulum rhoncus.
+                </p>
+                <div class="readmore">
+                    <a href="#">read more ...</a>
+                </div>
+            </article>
+        </section>
+
+    </div>
+    <footer>
+        <p>&copy; 2022 by Isra Bazzar</p>
+        <ul class="socials">
+            <li>
+                <a href="mailto:isra2.badaha@gmail.com" title="Gmail">
+                    <img src="images/icons/icons8-gmail-48.png" alt="Gmail">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/IsraBazzar" title="Github">
+                    <img src="images/icons/icons8-github-48.png" alt="Github">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/ibadaha/" title="LinkedIn">
+                    <img src="images/icons/icons8-linkedin-48.png" alt="LinkedIn">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.com/isra2/" title="Pinterest">
+                    <img src="images/icons/icons8-pinterest-48.png" alt="Pinterest">
+                </a>
+            </li>
+            <li>
+                <a href="profile.html" title="Website">
+                    <img src="images/icons/icons8-chrome-48.png" alt="Website">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
