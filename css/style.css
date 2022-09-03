@@ -27,6 +27,12 @@ font-family: 'Splash', cursive;*/
 @import "./profile.css";
 @import "./nav.css";
 @import "./footer.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: #6b705cff;
     background-color: #b7b7a4ff;
@@ -36,15 +42,18 @@ body {
     font-size: 16px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.aside {
+    padding: 15px;
+    background-color: #a5a58dff;
+    width: 20%;
+    float: right;
+    height: 100%;
 }
 
-img {
-    width: 250px;
-    height: 150px;
+.aside-card {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ddbea9ff;
 }
 
 a {
@@ -76,12 +85,7 @@ h1 {
     font-family: 'Splash', cursive;
     font-weight: 400;
     margin: 0;
-    font-size: 100px;
     line-height: 1;
-}
-
-h2 {
-    font-size: 45px;
 }
 
 h2,
@@ -95,6 +99,8 @@ footer {
 }
 
 .main {
+    width: 80%;
+    float: left;
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -106,7 +112,6 @@ footer {
     background-color: #ffe8d6ff;
     border-radius: 5px;
     box-shadow: 20px;
-    width: 300px;
     display: inline-block;
 }
 
@@ -120,16 +125,50 @@ figure {
     font-size: 16px;
 }
 
-.aside {
-    padding: 15px;
-    background-color: #a5a58dff;
-    float: right;
-    width: 200px;
-    height: 100%;
+@media(max-width: 320px) {
+    img {
+        width: 90px;
+        height: 70px;
+    }
+    .blog_card {
+        width: 120px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 25px;
+    }
 }
 
-.aside-card {
-    padding: 15px;
-    margin-bottom: 15px;
-    background-color: #ddbea9ff;
+@media(min-width: 901px) {
+    img {
+        width: 300px;
+        height: 200px;
+    }
+    .blog_card {
+        width: 330px;
+    }
+    h1 {
+        font-size: 120px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px) {
+    img {
+        width: 250px;
+        height: 150px;
+    }
+    .blog_card {
+        width: 280px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 45px;
+    }
 }
