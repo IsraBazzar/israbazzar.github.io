@@ -89,7 +89,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Oooh Baby', cursive;
 }
 
@@ -103,7 +104,6 @@ footer {
     float: left;
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .blog_card {
@@ -126,10 +126,6 @@ figure {
 }
 
 @media(max-width: 320px) {
-    img {
-        width: 90px;
-        height: 70px;
-    }
     .blog_card {
         width: 120px;
     }
@@ -138,6 +134,28 @@ figure {
     }
     h2 {
         font-size: 25px;
+    }
+}
+
+@media(min-width: 321px) {
+    img {
+        width: 250px;
+        height: 150px;
+    }
+    .blog_card {
+        width: 280px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 600px) {
+    .aside {
+        display: none;
     }
 }
 
@@ -154,21 +172,5 @@ figure {
     }
     h2 {
         font-size: 60px;
-    }
-}
-
-@media(min-width: 600px) and (max-width: 900px) {
-    img {
-        width: 250px;
-        height: 150px;
-    }
-    .blog_card {
-        width: 280px;
-    }
-    h1 {
-        font-size: 100px;
-    }
-    h2 {
-        font-size: 45px;
     }
 }
