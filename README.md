@@ -1,7 +1,7 @@
 # israbazzar.github.io
-Personal blog website
+##Personal blog website
 
-*** Resoures ***
+###Resoures
 - Color palette from https://coolors.co
 - Fonts from: https://fonts.google.com/
 - ipsum text from: https://loremipsum.io/generator/?n=1&t=p
